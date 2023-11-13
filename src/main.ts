@@ -1,3 +1,5 @@
-import "./style.css";
+// MÓDULO 07 - Unit Testing
 
-console.log("Hello Typescript!");
+import { eventos } from "./ui"
+
+document.addEventListener("DOMContentLoaded", eventos);
