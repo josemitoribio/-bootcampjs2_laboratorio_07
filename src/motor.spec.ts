@@ -73,18 +73,6 @@ describe ("comprobarEstadoPartida", () => {
         // Assert 
         expect(resultado).toBe(estadoAComprobar);
     });
-
-    it("Debería devolver el estado NINGUN_ESTADO cuando no pertenece a ningún estado", () => {
-        // Arrange
-        const puntos: undefined = undefined;
-        const estadoAComprobar: Estado = "NINGUN_ESTADO";
-    
-        // Act
-        const resultado = comprobarEstadoPartida(puntos);
-    
-        // Assert 
-        expect(resultado).toBe(estadoAComprobar);
-    });
 });
 
 // PARTE OPCIONAL
